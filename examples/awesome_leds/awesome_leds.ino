@@ -56,7 +56,7 @@ void when_opponent_is_present(String opponentName) {
 // triggered when the other player goes away and is no longer able to play a game
 void when_opponent_is_absent(String opponentName) {
   //blink(G, 3, 1000);
-  setLED(G, 5);
+  setLED(R, 5);
 }
 
 // triggered when you have chosen a weapon
