@@ -102,8 +102,6 @@ void when_error() {
 /** SETUP AND MAIN LOOP ********************************************/
 /*******************************************************************/
 
-void foo() { Serial.println("overridden foo"); };
-
 void setup() {
   // set up the Arduino hardware
   pinMode(R, OUTPUT);
